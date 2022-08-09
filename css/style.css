@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+#navbar-up{
+    height: 80px;
+    background: #226c8c;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+#navbar-up .logo img {
+    width: 163px;
+    padding-left: 30px;
+    padding-top: 8px;
+    height: 64px;
+}
+
+#navbar-up .broadcast{
+    text-align: center;
+}
+
+#navbar-up .broadcast ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+#navbar-up .broadcast ul li{
+    position: relative;
+    width: 200px;
+    margin: 15px;
+    margin-top: 12px;
+    padding: 15px;
+}
+
+#navbar-up .broadcast ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.broadcast ul li:hover{
+background-color: rgb(130, 130, 182);
+border-radius: 3px;
+}
+
+.broadcast .img1{
+    position: absolute; 
+    top: 15px; 
+    left: 17px;
+    
+}
+
+#navbar-up .search{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.search input {
+    height: 40px;
+    width: 180px;
+    border: 1px transparent;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.search input::placeholder{
+    padding-left: 50px;
+}
+
+.search img{
+    position: absolute; 
+    top: 12px; 
+    left: 20px;
+    z-index: 1;
+}
+
+.sign-in a{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    margin-top: 28px;
+    font-size: 20px;
+    color: white
+}
+
+#navbar-down{
+    position: absolute;
+    margin-top: 80px;
+    background-color: #226c8c;
+    height: 60px;
+    width: 100%;
+}
+
+#navbar-down .navbar ul li{
+    position: relative;
+    width: 120px;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#navbar-down .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar ul li:hover{
+    background-color: rgb(130, 130, 182);
+    border-radius: 3px;
+    }
+
+hr{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(21, 141, 141);
+}
+
+#navbar-down .navbar{
+    text-align: center;
+}
+
+#navbar-down .navbar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+#newsinfo{
+    position: absolute;
+    margin-top: 150px;
+    height: 100px;
+    width: 100%;
+}
+
+#newsinfo .infos{
+    position: relative;
+    right: 150px;
+    text-align: center;
+}
+
+#newsinfo .infos ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 50px;
+}
+
+#newsinfo .infos ul li{
+    width: 300px;
+    height: 85px;
+    margin: 10px;
+    padding-left: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: rgb(166, 208, 240);
+    padding-right: 20px;
+}
+
+#newsinfo .infos ul li a{
+    position: relative;
+    padding-right: 40px;
+    text-decoration: none;
+    color: rgb(103, 95, 145);
+    font-size: 18px;
+}
+
+#newsinfo h4{
+    position: absolute;
+    padding-left: 70px;
+    margin-top: 45px;
+
+}
+
+#news{
+    position: absolute;
+    margin-top: 255px;
+    height: 400px;
+    width: 100%;
+}
+
+#news .news1{
+    position: absolute;
+    height: 400px;
+    width: 45%;
+    background-color: rgb(57, 167, 64);
+    left: 70px;
+    border: 1px solid white;
+    border-radius: 14px;
+    background-image: url('../css/images/1a6d8d7d-cef3-4de6-be21-a46728db3677.webp');
+    background-size: 100% 100%;
+}
+
+#news h3{
+    position: absolute;
+    margin-top: 355px;
+    padding-left: 30px;
+    color: rgb(235, 239, 231);
+    font-size: 20px;
+}
+
+#news .a2{
+    position: absolute;
+    margin-top: 355px;
+    border: 1px solid rgb(42, 181, 241);
+    border-radius: 18px;
+    background-color: rgb(42, 181, 241);
+    padding-left: 20px;
+    left:450px;
+}
+
+#news a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#news #colone{
+    position: absolute;
+    height: 190px;
+    width: 20%;
+    left: 660px;
+    border: 1px solid white;
+    border-radius: 14px;
+    background-image: url('../css/images/3082e236-4f30-422a-9886-9b50b5839c6a.webp');
+    background-size: 100% 100%;
+}
+
+#colone a{
+    position: absolute;
+    margin-top: 145px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: rgb(9, 10, 9);
+    font-size: 16px;
+}
+
+#news #coltwo{
+    position: absolute;
+    height: 190px;
+    width: 20%;
+    margin-top: 210px;
+    left: 660px;
+    border: 1px solid white;
+    border-radius: 14px;
+    background-image: url('../css/images/8268c0b3-584a-48ab-a30f-917b52f510ec.webp');
+    background-size: 100% 100%;
+}
+
+#coltwo a{
+    position: absolute;
+    margin-top: 145px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: rgb(9, 10, 9);
+    font-size: 16px;
+}
+
+.newsblock{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 290px;
+    font-size: 14px;
+    
+    border-radius: 10px;
+    padding: 10px;
+    overflow: scroll;
+    scrollbar-color: #ba8841 #e4e4e4;
+    border: 1px solid #047eb3;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.newsblock a{
+    text-decoration: none;
+    width: 300px;
+    height: 20px;
+    font-size: 12px;
+    color:#047eb3;
+   
+}
+.newsblock h1{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #047eb3;
+}
+
+span{
+    position: relative;
+    padding-left: 30px;
+    font-size: 12px;
+    color:#047eb3;
+}
+
+.span1{
+    position: relative;
+    padding-left: 2px;
+    font-size: 12px;
+    color:#047eb3;
+}
+
+.first p{
+    font-size: 12px;
+    color:#047eb3;
+    margin:5px;
+}
+
+.first{
+    border: 1px solid rgb(236, 222, 222);
+    margin: 5px;
+    padding: 5px;
+}
+
+.first .date{
+    font-size: 19px;
+    word-spacing: 98px;
+}
+
+.socials{
+    position: fixed;
+    top:90px;
+    right:100px;
+    background-color: #047eb3;
+    width: 60px;
+    height: 160px;
+    border: 1px solid #047eb3;
+    border-radius: 10px;
+}
+
+.socials ul li{
+    list-style: none;
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+
+}
+
+.col-8 {
+    width: 66.66%;
+
+}
+
+.col-9 {
+    width: 75%;
+
+}
+
+.col-10 {
+    width: 83.33%;
+
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
